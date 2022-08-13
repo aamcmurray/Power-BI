@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 8 Indexing | Power BI Primer</title>
+  <meta name="description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 8 Indexing | Power BI Primer" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 8 Indexing | Power BI Primer" />
+  
+  <meta name="twitter:description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  
+
+
+
+<meta name="date" content="2022-08-13" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="indexing.html"/>
+<link rel="next" href="publishing.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Power BI Primer</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Power BI Primer</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#introduction"><i class="fa fa-check"></i><b>1.1</b> Introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>2</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="getting-started.html"><a href="getting-started.html#downloading-and-installing-power-bi"><i class="fa fa-check"></i><b>2.1</b> Downloading and Installing Power BI</a></li>
+<li class="chapter" data-level="2.2" data-path="getting-started.html"><a href="getting-started.html#launching-power-bi"><i class="fa fa-check"></i><b>2.2</b> Launching Power BI</a></li>
+<li class="chapter" data-level="2.3" data-path="getting-started.html"><a href="getting-started.html#important-features"><i class="fa fa-check"></i><b>2.3</b> Important Features</a></li>
+<li class="chapter" data-level="2.4" data-path="getting-started.html"><a href="getting-started.html#loading-data-excel"><i class="fa fa-check"></i><b>2.4</b> Loading Data (Excel)</a></li>
+<li class="chapter" data-level="2.5" data-path="getting-started.html"><a href="getting-started.html#power-query-editor"><i class="fa fa-check"></i><b>2.5</b> Power Query Editor</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-transformation-basics.html"><a href="data-transformation-basics.html"><i class="fa fa-check"></i><b>3</b> Data Transformation Basics</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-transformation-basics.html"><a href="data-transformation-basics.html#data-transformation-basics-1"><i class="fa fa-check"></i><b>3.1</b> Data Transformation Basics</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-visualisation.html"><a href="data-visualisation.html"><i class="fa fa-check"></i><b>4</b> Data Visualisation</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-visualisation.html"><a href="data-visualisation.html#visualising-data"><i class="fa fa-check"></i><b>4.1</b> Visualising Data</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data-visualisation.html"><a href="data-visualisation.html#creating-a-line-chart"><i class="fa fa-check"></i><b>4.1.1</b> Creating a Line-Chart</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data-visualisation.html"><a href="data-visualisation.html#the-slicer-visual"><i class="fa fa-check"></i><b>4.1.2</b> The Slicer Visual</a></li>
+<li class="chapter" data-level="4.1.3" data-path="data-visualisation.html"><a href="data-visualisation.html#the-format-area"><i class="fa fa-check"></i><b>4.1.3</b> The Format Area</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="adding-new-pages.html"><a href="adding-new-pages.html"><i class="fa fa-check"></i><b>5</b> Adding New Pages</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="adding-new-pages.html"><a href="adding-new-pages.html#adding-a-new-page"><i class="fa fa-check"></i><b>5.1</b> Adding a New Page</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>6</b> Navigation</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="navigation.html"><a href="navigation.html#navigation-1"><i class="fa fa-check"></i><b>6.1</b> Navigation</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="navigation.html"><a href="navigation.html#arrows"><i class="fa fa-check"></i><b>6.1.1</b> Arrows</a></li>
+<li class="chapter" data-level="6.1.2" data-path="navigation.html"><a href="navigation.html#buttons"><i class="fa fa-check"></i><b>6.1.2</b> Buttons</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="indexing.html"><a href="indexing.html"><i class="fa fa-check"></i><b>7</b> Indexing</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="indexing.html"><a href="indexing.html#indexing-1"><i class="fa fa-check"></i><b>7.1</b> Indexing</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="indexing-2.html"><a href="indexing-2.html"><i class="fa fa-check"></i><b>8</b> Indexing</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="indexing-2.html"><a href="indexing-2.html#indexing-3"><i class="fa fa-check"></i><b>8.1</b> Indexing</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="publishing.html"><a href="publishing.html"><i class="fa fa-check"></i><b>9</b> Publishing</a></li>
+<li class="chapter" data-level="10" data-path="sharing.html"><a href="sharing.html"><i class="fa fa-check"></i><b>10</b> Sharing</a></li>
+<li class="chapter" data-level="11" data-path="additional-resources.html"><a href="additional-resources.html"><i class="fa fa-check"></i><b>11</b> Additional Resources</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="additional-resources.html"><a href="additional-resources.html#additional-resources-1"><i class="fa fa-check"></i><b>11.1</b> Additional Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Power BI Primer</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="indexing-2" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Indexing<a href="indexing-2.html#indexing-2" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<hr />
+<div id="indexing-3" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Indexing<a href="indexing-2.html#indexing-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This example will show you how to create a bar chart visual of sales by month. This sounds simple but often when trying to visualise data categorised by month the bars for each month are sorted by alphabetical order rather than the order in which the months occur.</p>
+<p>Start a new project and click <strong>Enter Data</strong>.</p>
+<p>Enter the months of the year in the available column and change the column title to “Month”.</p>
+<p>Press the <strong>+</strong> Icon at the top right to create a new column, title it “Sales” and enter some dummy sales data.</p>
+<div class="figure">
+<img src="bi14.png" alt="" />
+<p class="caption">Entering data</p>
+</div>
+<p>Load the data.</p>
+<p>Create a bar chart visualisation with “Month” in the X-axis field and “Sales” in the Y-axis field.</p>
+<p>Once the visualisation has been created click the <strong>…</strong> icon for more options and sort the axis by month. The x-axis will be sorted by month but it will be sorted alphabetically.</p>
+<p>To rectify this we need to create an <strong>index</strong>.</p>
+<p>Click on <strong>Transform Data</strong> and navigate to “Monthly Sales”. In <strong>Applied Steps</strong> pane on the right hand side there will be a step called <strong>Source</strong> with a cog icon to the right of it. Click on the cog. This will open up the editor you used to input the data. Create a new column by clicking the <strong>+</strong> icon. Call this new column “Index” and write the number 1 in the first empty row. Write the number 2 in the next row and the number 3 in the next. Continue until each Month has a corresponding numerical index.</p>
+<div class="figure">
+<img src="bi15.jpg" alt="" />
+<p class="caption">Creating an index</p>
+</div>
+<p>When finished, click <strong>OK</strong> then <strong>Close &amp; Apply</strong>.</p>
+<p>Go to the data view, click on the “Month” column and find the <strong>Sort by column</strong> option in the <strong>column tools</strong> ribbon and select “Index”.</p>
+<div class="figure">
+<img src="bi16.jpg" alt="" />
+<p class="caption">Sorting by column</p>
+</div>
+<p>Return to the visualisation and the months should now be sorted in the correct order.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="indexing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="publishing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Bookdown.pdf", "Bookdown.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

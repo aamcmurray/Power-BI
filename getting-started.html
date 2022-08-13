@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Getting Started | Power BI Primer</title>
+  <meta name="description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Getting Started | Power BI Primer" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Getting Started | Power BI Primer" />
+  
+  <meta name="twitter:description" content="This book is designed to provide readers with a brief introduction to Power BI." />
+  
+
+
+
+<meta name="date" content="2022-08-13" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="intro.html"/>
+<link rel="next" href="data-transformation-basics.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Power BI Primer</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Power BI Primer</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#introduction"><i class="fa fa-check"></i><b>1.1</b> Introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>2</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="getting-started.html"><a href="getting-started.html#downloading-and-installing-power-bi"><i class="fa fa-check"></i><b>2.1</b> Downloading and Installing Power BI</a></li>
+<li class="chapter" data-level="2.2" data-path="getting-started.html"><a href="getting-started.html#launching-power-bi"><i class="fa fa-check"></i><b>2.2</b> Launching Power BI</a></li>
+<li class="chapter" data-level="2.3" data-path="getting-started.html"><a href="getting-started.html#important-features"><i class="fa fa-check"></i><b>2.3</b> Important Features</a></li>
+<li class="chapter" data-level="2.4" data-path="getting-started.html"><a href="getting-started.html#loading-data-excel"><i class="fa fa-check"></i><b>2.4</b> Loading Data (Excel)</a></li>
+<li class="chapter" data-level="2.5" data-path="getting-started.html"><a href="getting-started.html#power-query-editor"><i class="fa fa-check"></i><b>2.5</b> Power Query Editor</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-transformation-basics.html"><a href="data-transformation-basics.html"><i class="fa fa-check"></i><b>3</b> Data Transformation Basics</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-transformation-basics.html"><a href="data-transformation-basics.html#data-transformation-basics-1"><i class="fa fa-check"></i><b>3.1</b> Data Transformation Basics</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-visualisation.html"><a href="data-visualisation.html"><i class="fa fa-check"></i><b>4</b> Data Visualisation</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-visualisation.html"><a href="data-visualisation.html#visualising-data"><i class="fa fa-check"></i><b>4.1</b> Visualising Data</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data-visualisation.html"><a href="data-visualisation.html#creating-a-line-chart"><i class="fa fa-check"></i><b>4.1.1</b> Creating a Line-Chart</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data-visualisation.html"><a href="data-visualisation.html#the-slicer-visual"><i class="fa fa-check"></i><b>4.1.2</b> The Slicer Visual</a></li>
+<li class="chapter" data-level="4.1.3" data-path="data-visualisation.html"><a href="data-visualisation.html#the-format-area"><i class="fa fa-check"></i><b>4.1.3</b> The Format Area</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="adding-new-pages.html"><a href="adding-new-pages.html"><i class="fa fa-check"></i><b>5</b> Adding New Pages</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="adding-new-pages.html"><a href="adding-new-pages.html#adding-a-new-page"><i class="fa fa-check"></i><b>5.1</b> Adding a New Page</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>6</b> Navigation</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="navigation.html"><a href="navigation.html#navigation-1"><i class="fa fa-check"></i><b>6.1</b> Navigation</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="navigation.html"><a href="navigation.html#arrows"><i class="fa fa-check"></i><b>6.1.1</b> Arrows</a></li>
+<li class="chapter" data-level="6.1.2" data-path="navigation.html"><a href="navigation.html#buttons"><i class="fa fa-check"></i><b>6.1.2</b> Buttons</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="indexing.html"><a href="indexing.html"><i class="fa fa-check"></i><b>7</b> Indexing</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="indexing.html"><a href="indexing.html#indexing-1"><i class="fa fa-check"></i><b>7.1</b> Indexing</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="relationships.html"><a href="relationships.html"><i class="fa fa-check"></i><b>8</b> Relationships</a></li>
+<li class="chapter" data-level="9" data-path="publishing.html"><a href="publishing.html"><i class="fa fa-check"></i><b>9</b> Publishing</a></li>
+<li class="chapter" data-level="10" data-path="sharing.html"><a href="sharing.html"><i class="fa fa-check"></i><b>10</b> Sharing</a></li>
+<li class="chapter" data-level="11" data-path="additional-resources.html"><a href="additional-resources.html"><i class="fa fa-check"></i><b>11</b> Additional Resources</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="additional-resources.html"><a href="additional-resources.html#additional-resources-1"><i class="fa fa-check"></i><b>11.1</b> Additional Resources</a>
+<ul>
+<li class="chapter" data-level="11.1.1" data-path="additional-resources.html"><a href="additional-resources.html#power-bi-documentation"><i class="fa fa-check"></i><b>11.1.1</b> Power BI Documentation</a></li>
+<li class="chapter" data-level="11.1.2" data-path="additional-resources.html"><a href="additional-resources.html#dax"><i class="fa fa-check"></i><b>11.1.2</b> DAX</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Power BI Primer</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="getting-started" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Getting Started<a href="getting-started.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<hr />
+<div id="downloading-and-installing-power-bi" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Downloading and Installing Power BI<a href="getting-started.html#downloading-and-installing-power-bi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To download Power BI Desktop, go to the Power BI Desktop download page and select <strong>Download Free</strong>. You can also download Power BI Desktop from the Power BI service. Select the <strong>Download</strong> icon in the top menu bar, and then select Power BI Desktop.</p>
+</div>
+<div id="launching-power-bi" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Launching Power BI<a href="getting-started.html#launching-power-bi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Once you launch Power BI Desktop you will be welcomed by the <strong>Start screen</strong>. Here, you can get data sources for your reports, watch video tutorials, check updates and visit the Power BI forums. For now, select the <strong>close</strong> icon to close the Welcome screen to see the main interface (Figure 1 below).</p>
+<div class="figure">
+<img src="bi1.jpg" alt="" />
+<p class="caption">Screenshot of the Power BI User Interface.</p>
+</div>
+</div>
+<div id="important-features" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Important Features<a href="getting-started.html#important-features" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The image above shows some of the most important features in Power BI Desktop.</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Get data</strong>: This is used for selecting, connecting to and configuring the data sources that will be used in a report or dashboard. A single data source can be used or multiple can be used. When a data source is selected Power BI will provide you with an option to either load the data or transform it. It’s worth noting that data source will be stored in Power BI’s internal memory, so the more data sources you connect to and the larger those sources are the slower your report/dashboard will run.</p></li>
+<li><p><strong>Transform data</strong>: This is used to launch the Power Query Editor. The Power Query Editor is where data can be transformed. Transformation usually refers to dealing with missing values or cleaning the data before analysis. The Power Query Editor is a useful tool when working with data sets which need to be cleaned. Working with Power Query Editor is similar to working with Excel and often it is useful to switch between the two as some transformations will be easier in one than the other.</p></li>
+<li><p><strong>Report View or canvas</strong>: The report view icon opens the report view canvas which is used for selecting and designing data visualizations. This is the default view open when Power BI is launched.</p></li>
+<li><p><strong>Data View</strong>: The data view allows you to view all the data available in your report. This view looks similar to an Excel spreadsheet but it is read only. It is useful to quickly check data types, validate data and make small changes to your data source - such as changing a data type or the format of a variable.</p></li>
+<li><p><strong>Model View or Relationship View</strong>: The relationship or model view allows you to set relationships between data sources. Relationships occur where two or more data sources are linked together by related data (a shared variable like ‘year’ for instance).</p></li>
+</ol>
+</div>
+<div id="loading-data-excel" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Loading Data (Excel)<a href="getting-started.html#loading-data-excel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We’re going to use a dummy dataset health_data.xlsx included in the <a href="https://github.com/aamcmurray/BookTest/blob/main/health_data.xlsx">repository used to host this guide</a>. Download and save the dataset in a folder you can easily locate.</p>
+<p>To use Excel data sets as a source, open the Power BI Desktop. Under the <strong>Home ribbon</strong> find <strong>Get Data</strong>. Selecting the down arrow next to the Get Data button will show the most common connectors used but clicking the button itself will provide a full list of all available connectors. The list is extensive and Power BI can connect to a wide array of data sources including .csv files, .xlsx and .txt files. Power BI also supports SQL database connections. Whether you click the Get Data button or the arrow you will see Excel at the top of the resulting list. Click <strong>Excel Workbook</strong> and then click Connect. Navigate to your data source.</p>
+<p>Once selected you will see two separate spreadsheets you can choose from.</p>
+<p><img src="bi2.jpg" alt="Selecting spreadsheets from an Excel file." />
+Clicking once on the spreadsheet name will let you preview the data while clicking on the <strong>checkbox</strong> next to the name will include it as part of the data import. Here we have two sheets, Health Data 1 which contains data relating to drug related deaths and deaths due to drug misuse and Health Data 2 which contains population data. This data needs to be cleaned before we can use it so tick both the boxes and then press the <strong>Transform Data</strong> button on the bottom of the panel. This launches the <strong>Power Query Editor</strong>. You can also clean your data in Excel then simply press the Load button but some data sets would be too difficult to transform in Excel.</p>
+</div>
+<div id="power-query-editor" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Power Query Editor<a href="getting-started.html#power-query-editor" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When the Power Query Editor loads you will notice it has its own environment.</p>
+<p><img src="bi3.jpg" alt="Power Query Editor User Interface." />
+There are a number of features in the Power Query Editor to take note of:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>New Source</strong>: This launches the same interface as the Get Data button.</p></li>
+<li><p><strong>Queries Pane</strong>: The queries pane is a list of all the queries that you have connected to.</p></li>
+<li><p><strong>Query Settings</strong>: Within this pane you can see the complete history of transformations that have been applied to your query. You can also rename the query. This history is useful for several reasons. From here you can rename a query, or click the ‘x’ beside a query to remove a query, and reorder queries by clicking and dragging them into different positions.</p></li>
+<li><p><strong>Advanced Editor</strong>: Power Query Editor uses a programming language informally known as M in the background and when you click any button in the Power Query GUI some M code is generated in the background corresponding to what has been done. By launching the Advanced Editory you can see the M query that is automatically written for you by the Power Query Editor.</p></li>
+<li><p><strong>Close and Apply</strong>: Choosing this option will save your transformations, close the Power Query Editor and load the transformed data into the data model.</p></li>
+</ol>
+<p>The Power Query Editor allows you to transform the data with step-by-step instructions for adjusting the data. Transforming the data this way <strong>does not affect the original data source</strong>, only this particular view of the data. Data transformation includes a range of processes including: renaming columns or tables, removing rows, replacing missing data entries or changing data types. Power Query Editor records the steps taken to transform the data sequentially under <strong>Applied Steps</strong> in the <strong>Query Settings</strong> pane. If you make a mistake or transform the data in a way you aren’t happy with you can simply cancel the transformation by clicking the <strong>X</strong> that appears beside it in <strong>Applied Steps</strong>.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-transformation-basics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Bookdown.pdf", "Bookdown.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

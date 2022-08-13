@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Describing Data | Digital Skills</title>
+  <meta name="description" content="This book is designed to provide readers with a brief introduction to digital tools used in research." />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Describing Data | Digital Skills" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This book is designed to provide readers with a brief introduction to digital tools used in research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Describing Data | Digital Skills" />
+  
+  <meta name="twitter:description" content="This book is designed to provide readers with a brief introduction to digital tools used in research." />
+  
+
+
+
+<meta name="date" content="2022-08-13" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="levels-of-measurement-quiz.html"/>
+<link rel="next" href="descriptive-statistics-quiz.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Power BI Primer</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>A Note About this Resource</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#what-is-statistics"><i class="fa fa-check"></i><b>1.1</b> What is Statistics?</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="intro.html"><a href="intro.html#descriptive-statistics"><i class="fa fa-check"></i><b>1.1.1</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="1.1.2" data-path="intro.html"><a href="intro.html#inferential-statistics"><i class="fa fa-check"></i><b>1.1.2</b> Inferential Statistics</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html"><i class="fa fa-check"></i><b>2</b> Data Types and Levels of Measurement</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#types-of-data"><i class="fa fa-check"></i><b>2.1</b> Types of Data</a></li>
+<li class="chapter" data-level="2.2" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#levels-of-measurement"><i class="fa fa-check"></i><b>2.2</b> Levels of Measurement</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#nominal"><i class="fa fa-check"></i><b>2.2.1</b> Nominal</a></li>
+<li class="chapter" data-level="2.2.2" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#ordinal"><i class="fa fa-check"></i><b>2.2.2</b> Ordinal</a></li>
+<li class="chapter" data-level="2.2.3" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#interval"><i class="fa fa-check"></i><b>2.2.3</b> Interval</a></li>
+<li class="chapter" data-level="2.2.4" data-path="data-types-and-levels-of-measurement.html"><a href="data-types-and-levels-of-measurement.html#ratio"><i class="fa fa-check"></i><b>2.2.4</b> Ratio</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="levels-of-measurement-quiz.html"><a href="levels-of-measurement-quiz.html"><i class="fa fa-check"></i><b>3</b> Levels of Measurement Quiz</a></li>
+<li class="chapter" data-level="4" data-path="describing-data.html"><a href="describing-data.html"><i class="fa fa-check"></i><b>4</b> Describing Data</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="describing-data.html"><a href="describing-data.html#frequency"><i class="fa fa-check"></i><b>4.1</b> Frequency</a></li>
+<li class="chapter" data-level="4.2" data-path="describing-data.html"><a href="describing-data.html#measures-of-central-tendency"><i class="fa fa-check"></i><b>4.2</b> Measures of Central Tendency</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="describing-data.html"><a href="describing-data.html#mean"><i class="fa fa-check"></i><b>4.2.1</b> Mean</a></li>
+<li class="chapter" data-level="4.2.2" data-path="describing-data.html"><a href="describing-data.html#median"><i class="fa fa-check"></i><b>4.2.2</b> Median</a></li>
+<li class="chapter" data-level="4.2.3" data-path="describing-data.html"><a href="describing-data.html#mode"><i class="fa fa-check"></i><b>4.2.3</b> Mode</a></li>
+<li class="chapter" data-level="4.2.4" data-path="describing-data.html"><a href="describing-data.html#using-excel"><i class="fa fa-check"></i><b>4.2.4</b> Using Excel</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="describing-data.html"><a href="describing-data.html#measures-of-dispersion"><i class="fa fa-check"></i><b>4.3</b> Measures of Dispersion</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="describing-data.html"><a href="describing-data.html#range"><i class="fa fa-check"></i><b>4.3.1</b> Range</a></li>
+<li class="chapter" data-level="4.3.2" data-path="describing-data.html"><a href="describing-data.html#interquartile-range"><i class="fa fa-check"></i><b>4.3.2</b> Interquartile Range</a></li>
+<li class="chapter" data-level="4.3.3" data-path="describing-data.html"><a href="describing-data.html#variance-and-standard-deviation"><i class="fa fa-check"></i><b>4.3.3</b> Variance and Standard Deviation</a></li>
+<li class="chapter" data-level="4.3.4" data-path="describing-data.html"><a href="describing-data.html#using-excel-1"><i class="fa fa-check"></i><b>4.3.4</b> Using Excel</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="descriptive-statistics-quiz.html"><a href="descriptive-statistics-quiz.html"><i class="fa fa-check"></i><b>5</b> Descriptive Statistics Quiz</a></li>
+<li class="chapter" data-level="6" data-path="comparing-data.html"><a href="comparing-data.html"><i class="fa fa-check"></i><b>6</b> Comparing Data</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="comparing-data.html"><a href="comparing-data.html#percentage-change"><i class="fa fa-check"></i><b>6.1</b> Percentage Change</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="comparing-data.html"><a href="comparing-data.html#example-10"><i class="fa fa-check"></i><b>6.1.1</b> Example</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="comparing-data.html"><a href="comparing-data.html#percentage-point-change"><i class="fa fa-check"></i><b>6.2</b> Percentage Point Change</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="comparing-data.html"><a href="comparing-data.html#example-11"><i class="fa fa-check"></i><b>6.2.1</b> Example</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="data-visualisation.html"><a href="data-visualisation.html"><i class="fa fa-check"></i><b>7</b> Data Visualisation</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="data-visualisation.html"><a href="data-visualisation.html#data-visualisation-1"><i class="fa fa-check"></i><b>7.1</b> Data Visualisation</a></li>
+<li class="chapter" data-level="7.2" data-path="data-visualisation.html"><a href="data-visualisation.html#visual-cues"><i class="fa fa-check"></i><b>7.2</b> Visual Cues</a></li>
+<li class="chapter" data-level="7.3" data-path="data-visualisation.html"><a href="data-visualisation.html#relationships-in-data"><i class="fa fa-check"></i><b>7.3</b> Relationships in Data</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="data-visualisation.html"><a href="data-visualisation.html#frequency-distributions"><i class="fa fa-check"></i><b>7.3.1</b> Frequency Distributions</a></li>
+<li class="chapter" data-level="7.3.2" data-path="data-visualisation.html"><a href="data-visualisation.html#time-series"><i class="fa fa-check"></i><b>7.3.2</b> Time Series</a></li>
+<li class="chapter" data-level="7.3.3" data-path="data-visualisation.html"><a href="data-visualisation.html#rankings"><i class="fa fa-check"></i><b>7.3.3</b> Rankings</a></li>
+<li class="chapter" data-level="7.3.4" data-path="data-visualisation.html"><a href="data-visualisation.html#deviation"><i class="fa fa-check"></i><b>7.3.4</b> Deviation</a></li>
+<li class="chapter" data-level="7.3.5" data-path="data-visualisation.html"><a href="data-visualisation.html#correlation"><i class="fa fa-check"></i><b>7.3.5</b> Correlation</a></li>
+<li class="chapter" data-level="7.3.6" data-path="data-visualisation.html"><a href="data-visualisation.html#magnitude"><i class="fa fa-check"></i><b>7.3.6</b> Magnitude</a></li>
+<li class="chapter" data-level="7.3.7" data-path="data-visualisation.html"><a href="data-visualisation.html#spatial"><i class="fa fa-check"></i><b>7.3.7</b> Spatial</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="data-visualisation.html"><a href="data-visualisation.html#why-visualise-data"><i class="fa fa-check"></i><b>7.4</b> Why Visualise Data?</a></li>
+<li class="chapter" data-level="7.5" data-path="data-visualisation.html"><a href="data-visualisation.html#data-visualisation-tools"><i class="fa fa-check"></i><b>7.5</b> Data Visualisation Tools</a></li>
+<li class="chapter" data-level="7.6" data-path="data-visualisation.html"><a href="data-visualisation.html#dynamic-visualisations-dashboards"><i class="fa fa-check"></i><b>7.6</b> Dynamic Visualisations (Dashboards)</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="data-visualisation.html"><a href="data-visualisation.html#best-practice"><i class="fa fa-check"></i><b>7.6.1</b> Best Practice</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="power-bi.html"><a href="power-bi.html"><i class="fa fa-check"></i><b>8</b> Power BI</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="power-bi.html"><a href="power-bi.html#introduction"><i class="fa fa-check"></i><b>8.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="power-bi.html"><a href="power-bi.html#getting-started"><i class="fa fa-check"></i><b>8.1.1</b> Getting Started</a></li>
+<li class="chapter" data-level="8.1.2" data-path="power-bi.html"><a href="power-bi.html#excel-as-a-data-source"><i class="fa fa-check"></i><b>8.1.2</b> Excel as a Data Source</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="power-bi.html"><a href="power-bi.html#data-transformation-basics"><i class="fa fa-check"></i><b>8.2</b> Data Transformation Basics</a></li>
+<li class="chapter" data-level="8.3" data-path="power-bi.html"><a href="power-bi.html#visualising-data"><i class="fa fa-check"></i><b>8.3</b> Visualising Data</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="power-bi.html"><a href="power-bi.html#creating-a-line-chart"><i class="fa fa-check"></i><b>8.3.1</b> Creating a Line-Chart</a></li>
+<li class="chapter" data-level="8.3.2" data-path="power-bi.html"><a href="power-bi.html#the-slicer-visual"><i class="fa fa-check"></i><b>8.3.2</b> The Slicer Visual</a></li>
+<li class="chapter" data-level="8.3.3" data-path="power-bi.html"><a href="power-bi.html#the-format-area"><i class="fa fa-check"></i><b>8.3.3</b> The Format Area</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="power-bi.html"><a href="power-bi.html#adding-a-new-page"><i class="fa fa-check"></i><b>8.4</b> Adding a New Page</a></li>
+<li class="chapter" data-level="8.5" data-path="power-bi.html"><a href="power-bi.html#navigation"><i class="fa fa-check"></i><b>8.5</b> Navigation</a>
+<ul>
+<li class="chapter" data-level="8.5.1" data-path="power-bi.html"><a href="power-bi.html#arrows"><i class="fa fa-check"></i><b>8.5.1</b> Arrows</a></li>
+<li class="chapter" data-level="8.5.2" data-path="power-bi.html"><a href="power-bi.html#buttons"><i class="fa fa-check"></i><b>8.5.2</b> Buttons</a></li>
+</ul></li>
+<li class="chapter" data-level="8.6" data-path="power-bi.html"><a href="power-bi.html#indexing"><i class="fa fa-check"></i><b>8.6</b> Indexing</a></li>
+<li class="chapter" data-level="8.7" data-path="power-bi.html"><a href="power-bi.html#relationships"><i class="fa fa-check"></i><b>8.7</b> Relationships</a></li>
+<li class="chapter" data-level="8.8" data-path="power-bi.html"><a href="power-bi.html#publishing"><i class="fa fa-check"></i><b>8.8</b> Publishing</a></li>
+<li class="chapter" data-level="8.9" data-path="power-bi.html"><a href="power-bi.html#additional-resources"><i class="fa fa-check"></i><b>8.9</b> Additional Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Digital Skills</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="describing-data" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Describing Data<a href="describing-data.html#describing-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<hr />
+<div id="frequency" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Frequency<a href="describing-data.html#frequency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The <strong>frequency</strong> of an observation is the number of times it occurs or is recorded.A frequency table, like the one shown below detailing exam grades, is a commonly used method of depicting frequency.</p>
+<table>
+<caption>Frequency Table</caption>
+<thead>
+<tr class="header">
+<th align="right">Grade</th>
+<th align="right">Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">A</td>
+<td align="right">15</td>
+</tr>
+<tr class="even">
+<td align="right">B</td>
+<td align="right">20</td>
+</tr>
+<tr class="odd">
+<td align="right">C</td>
+<td align="right">25</td>
+</tr>
+<tr class="even">
+<td align="right">D</td>
+<td align="right">21</td>
+</tr>
+<tr class="odd">
+<td align="right">E</td>
+<td align="right">14</td>
+</tr>
+</tbody>
+</table>
+<p>The total of all frequencies so far in a frequency distribution is the <strong>cumulative frequency</strong>. It is the ‘running total’ of frequencies.</p>
+<table>
+<caption>Cumulative Frequency Table</caption>
+<thead>
+<tr class="header">
+<th align="right">Grade</th>
+<th align="right">Frequency</th>
+<th align="right">Cumulative Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">A</td>
+<td align="right">15</td>
+<td align="right">15</td>
+</tr>
+<tr class="even">
+<td align="right">B</td>
+<td align="right">20</td>
+<td align="right">35</td>
+</tr>
+<tr class="odd">
+<td align="right">C</td>
+<td align="right">25</td>
+<td align="right">60</td>
+</tr>
+<tr class="even">
+<td align="right">D</td>
+<td align="right">21</td>
+<td align="right">81</td>
+</tr>
+<tr class="odd">
+<td align="right">E</td>
+<td align="right">14</td>
+<td align="right">95</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>relative frequency</strong> is the ratio of the category frequency to the total number of outcomes. For grade A, the relative frequency is:</p>
+<p><span class="math display">\[ \frac{15}{15+20+25+21+14}=0.16. \]</span></p>
+<p>The table can be extended to include the relative frequency.</p>
+<table>
+<caption>Relative Frequency Table</caption>
+<thead>
+<tr class="header">
+<th align="right">Grade</th>
+<th align="right">Frequency</th>
+<th align="right">Relative Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">A</td>
+<td align="right">15</td>
+<td align="right">0.16</td>
+</tr>
+<tr class="even">
+<td align="right">B</td>
+<td align="right">20</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="odd">
+<td align="right">C</td>
+<td align="right">25</td>
+<td align="right">0.26</td>
+</tr>
+<tr class="even">
+<td align="right">D</td>
+<td align="right">21</td>
+<td align="right">0.22</td>
+</tr>
+<tr class="odd">
+<td align="right">E</td>
+<td align="right">14</td>
+<td align="right">0.15</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>relative frequency</strong> can be reported as a percentage by multiplying the values by 100%. For grade A, the relative frequency reported as a percentage is: 100% x 0.16 = 16%.</p>
+</div>
+<div id="measures-of-central-tendency" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Measures of Central Tendency<a href="describing-data.html#measures-of-central-tendency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Measures of central tendency help find the middle, or the average, of a data set.The measures of central tendency are the mean, median and mode.</p>
+<div id="mean" class="section level3 hasAnchor" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Mean<a href="describing-data.html#mean" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The mean is the sum of the recorded values divided by the number of values recorded.</p>
+<div id="example" class="section level4 hasAnchor" number="4.2.1.1">
+<h4><span class="header-section-number">4.2.1.1</span> Example<a href="describing-data.html#example" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the mean of this list of numbers:</p>
+<p><span class="math display">\[ 2, 3, 3, 4, 20.\]</span>
+<span class="math display">\[ \textrm{Mean} = \frac{\textrm{Sum of recorded values}}{\textrm{Number of values recorded}},\]</span>
+<span class="math display">\[ \textrm{Mean} = \frac{\textrm{2 + 3 + 3 + 4 + 20}}{\textrm{5}},\]</span>
+<span class="math display">\[ \textrm{Mean} = \frac{\textrm{32}}{\textrm{5}},\]</span></p>
+<p><span class="math display">\[ \textrm{Mean} = 6.4.\]</span></p>
+</div>
+</div>
+<div id="median" class="section level3 hasAnchor" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Median<a href="describing-data.html#median" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The <strong>median</strong> is the middle number in a sorted, ascending or descending, list of values.</p>
+<p>If there are an odd number of values the median is simply the middle value.</p>
+<p>For an even number of values there will be two values in the center. Those values are summed and divided by two.</p>
+<p>The median is sometimes used as opposed to the mean when there are outliers that might skew the average of the values.</p>
+<div id="example-1" class="section level4 hasAnchor" number="4.2.2.1">
+<h4><span class="header-section-number">4.2.2.1</span> Example<a href="describing-data.html#example-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the median of this list of numbers:</p>
+<p><span class="math display">\[ 2, 3, 3, 4, 20.\]</span></p>
+<p>There are 5 values listed in ascending order and the middle value is the third value in the list so the median is 3.</p>
+<p>Note: In the previous example the mean was 6.4. It was skewed by the outlier (20). The median remains closer to what might be considered to be the middle of the data set.</p>
+</div>
+<div id="example-2" class="section level4 hasAnchor" number="4.2.2.2">
+<h4><span class="header-section-number">4.2.2.2</span> Example<a href="describing-data.html#example-2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the median of this list of numbers:</p>
+<p><span class="math display">\[ 3, 5, 4, 4, 2, 8, 7, 1.\]</span></p>
+<p>The list should be sorted:</p>
+<p><span class="math display">\[ 1, 2, 3, 4, 4, 5, 7, 8. \]</span></p>
+<p>There are an even number of values so there will be two middle values. The middle values are 4 and 4. Sum them and divide by two to get the median: 4.</p>
+</div>
+</div>
+<div id="mode" class="section level3 hasAnchor" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Mode<a href="describing-data.html#mode" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The mode of a set of data values is the value that appears most often. It is the value that is most likely to be sampled. There can be multiple modes or no modes.</p>
+<div id="example-3" class="section level4 hasAnchor" number="4.2.3.1">
+<h4><span class="header-section-number">4.2.3.1</span> Example<a href="describing-data.html#example-3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the mode of this list of numbers:</p>
+<p><span class="math display">\[ 1, 2, 2, 2, 3, 3, 4.\]</span></p>
+<p>A simple way to find the mode is to make a frequency table with the unique values on the left hand side and their frequency on the right hand side. We can tally up how many times each number occurs. Whichever has the greatest frequency is our mode.</p>
+<table>
+<caption></caption>
+<thead>
+<tr class="header">
+<th align="right">Value</th>
+<th align="right">Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p>The mode is 2.</p>
+</div>
+<div id="example-4" class="section level4 hasAnchor" number="4.2.3.2">
+<h4><span class="header-section-number">4.2.3.2</span> Example<a href="describing-data.html#example-4" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the mode of this list of numbers:</p>
+<p><span class="math display">\[ 7, 3, 5, 3, 4, 3, 5, 6, 8, 5.\]</span></p>
+<table>
+<caption></caption>
+<thead>
+<tr class="header">
+<th align="right">Value</th>
+<th align="right">Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p>This is <strong>bimodal</strong>, it has two modes, 3 and 5.</p>
+</div>
+<div id="example-5" class="section level4 hasAnchor" number="4.2.3.3">
+<h4><span class="header-section-number">4.2.3.3</span> Example<a href="describing-data.html#example-5" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Find the mode of this list of numbers:</p>
+<p><span class="math display">\[ 1, 2, 3, 4, 5, 6.\]</span></p>
+<table>
+<caption></caption>
+<thead>
+<tr class="header">
+<th align="right">Value</th>
+<th align="right">Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p>Every value is unique and occurs only once so this data has no mode.</p>
+</div>
+</div>
+<div id="using-excel" class="section level3 hasAnchor" number="4.2.4">
+<h3><span class="header-section-number">4.2.4</span> Using Excel<a href="describing-data.html#using-excel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>It is useful to calculate descriptive statistics by hand for understanding but for larger data sets it is not always possible to arrange data and perform calculations by hand.</p>
+<p>Excel has a number of functions designed to perform descriptive statistics.</p>
+<p><strong>Frequency</strong></p>
+<p>=FREQUENCY(start:end,bins_array)</p>
+<p>The frequency() function will return a frequency table describing your data. It takes two arguments, the first being the array of values and the second being an array describing the upper boundary of the bins used.</p>
+<p><strong>Average</strong></p>
+<p>=AVERAGE(start:end)</p>
+<p>The mean is calculated using the average() function. There are several other functions relating to means: geomean(), harmean() and trimmean(). Take care not to use these as they are quite different from calculating the mean that has been described here.</p>
+<p><strong>Median</strong></p>
+<p>=MEDIAN(start:end)</p>
+<p>The median is calculated using the median() function.</p>
+<p><strong>Mode</strong></p>
+<p>=MODE.SNGL(start:end)</p>
+<p>=MODE.MULT(start:end)</p>
+<p>There are several functions for calculating the mode: mode(), mode.sngl() and mode.mult().
+mode() was used in Excel 2007 and may still appear as an option in some versions of Excel.
+mode.sngl() will return one mode and mode.mult() will return multiple modes (if there are multiple modes).</p>
+<p>Neither mode() nor mode.sngl() will warn you if there are multiple modes so mode.mult() is usually the safest option.</p>
+<div id="example-6" class="section level4 hasAnchor" number="4.2.4.1">
+<h4><span class="header-section-number">4.2.4.1</span> Example<a href="describing-data.html#example-6" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>In the example below, the variable name is in cell A1 and the values are in cells A2 to A18. To calculate the average, type “=AVERAGE(A2:A18)” in another cell. It doesn’t matter which cell but in this example A19 has been used. Press enter to return the value.</p>
+<div class="figure">
+<img src="Excelimage.png" alt="" />
+<p class="caption">Screen shot showing excel spreadsheet with a list of values and the average being calculated using the average() function.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="measures-of-dispersion" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Measures of Dispersion<a href="describing-data.html#measures-of-dispersion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Dispersion</strong> (or variability) describes how far apart data points lie from each other and the center of a distribution. The <strong>range, interquartile range, variance</strong> and <strong>standard deviation</strong> are all measures of dispersion and they describe how far apart data points lie from one another and the center of a distribution.</p>
+<div id="range" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Range<a href="describing-data.html#range" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The range is the difference between the highest and lowest values and is calculated by subtracting the minimum value from the maximum value.</p>
+<div id="example-7" class="section level4 hasAnchor" number="4.3.1.1">
+<h4><span class="header-section-number">4.3.1.1</span> Example<a href="describing-data.html#example-7" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Calculate the range for the following set of numbers:</p>
+<p><span class="math display">\[ 23, 42, 75, 19, 74. \]</span>
+First, arrange the values in ascending order:</p>
+<p><span class="math display">\[ 19, 23, 42, 74, 75. \]</span>
+The maximum value is 75 and the minimum is 19.</p>
+<p><span class="math display">\[ \textrm{Range}= 75 - 19, \]</span>
+<span class="math display">\[ \textrm{Range} = 56.\]</span></p>
+</div>
+</div>
+<div id="interquartile-range" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Interquartile Range<a href="describing-data.html#interquartile-range" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The <strong>interquartile range</strong> (IQR) describes the spread of the middle half of a distribution. How the interquartile range is calculated depends on whether there are an even or an odd number of values in a dataset.</p>
+<p>For an even number of values the dataset in split half. The medians for the two new subsets of data are calculated. The positive difference of those medians is the interquartile range.
+For an odd number of values either the inclusive or the exclusive method of finding the interquartile range must be used.</p>
+<div class="figure">
+<img src="iqrtree.jpg" alt="" />
+<p class="caption">Tree diagram showing process of deciding how to calculate the IQR</p>
+</div>
+<p>The algorithm for the <strong>exclusive method</strong> is detailed below:</p>
+<ol style="list-style-type: decimal">
+<li>Arrange the data in numeric order.</li>
+<li>Remove the median and split the data about its center.</li>
+<li>Find the medians of the two newly appended subsets of data.</li>
+<li>Calculate the difference.</li>
+</ol>
+<p>The algorithm for the <strong>inclusive method</strong> is detailed below:</p>
+<ol style="list-style-type: decimal">
+<li>Arrange the data in numeric order.</li>
+<li>Remove the median and split the data about its center.</li>
+<li>Append the two new subsets of data with the median.</li>
+<li>Find the medians of the two newly appended subsets of data.</li>
+<li>Calculate the difference.</li>
+</ol>
+<div id="example-8" class="section level4 hasAnchor" number="4.3.2.1">
+<h4><span class="header-section-number">4.3.2.1</span> Example<a href="describing-data.html#example-8" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>Even</strong></p>
+<p>Find the interquartile range for the list of numbers below:</p>
+<p><span class="math display">\[6, 7, 8, 8, 7, 6, 9, 5, 10, 4. \]</span>
+There are an even number of values. Arrange them in numeric order:</p>
+<p><span class="math display">\[ 4, 5, 6, 6, 7, 7, 8, 8, 9, 10.\]</span>
+Split the values about their center into two sub sets of data.</p>
+<p><span class="math display">\[ (4, 5, 6, 6, 7), (7, 8, 8, 9, 10). \]</span>
+Find the medians of each of these sub sets. The first subset has a median of 6 while the second has a median of 8.</p>
+<p>The interquartile range is:</p>
+<p><span class="math display">\[ \textrm{IQR} = 8 - 6 = 2.\]</span>
+Note: To calculate the interquartile range the smaller median value is always subtracted from the larger.</p>
+<p><strong>Odd (Exclusive Method)</strong></p>
+<p>Find the interquartile range for the list of numbers below:</p>
+<p><span class="math display">\[2, 3, 2, 4, 3, 5, 4, 4, 2.\]</span>
+Arrange the values in numeric order:</p>
+<p><span class="math display">\[2, 2, 2, 3, 3, 4, 4, 4, 5. \]</span>
+Remove the median (3) and split the data as before:</p>
+<p><span class="math display">\[ (2, 2, 2, 3), (4, 4, 4, 5).\]</span>
+The interquartile range is:</p>
+<p><span class="math display">\[ \textrm{IQR}=\textrm{Median of sub set 2}- \textrm{Median of sub set 1},\]</span>
+<span class="math display">\[ \textrm{IQR}=\frac{4+4}{2} - \frac{2+2}{2}=\frac{8}{2} - \frac{4}{2} = 4 - 2= 2.\]</span>
+<strong>Odd (Inclusive Method)</strong></p>
+<p>Find the interquartile range of the list of numbers below:</p>
+<p><span class="math display">\[ 2, 3, 2, 4, 3, 5, 4, 4, 2.\]</span>
+Sort in numeric order as before:</p>
+<p><span class="math display">\[2, 2, 2, 3, 3, 4, 4, 4, 5.\]</span></p>
+<p>Split the data as before but append each subset of data with the median (at the end and start of each subset respectively):</p>
+<p><span class="math display">\[(2, 2, 2, 3, 3),(3, 4, 4, 4, 5).\]</span>
+Find the medians of each of the subsets and calculate the interquartile range. The median of the first subset is 2 and the median of the second subset is 4.</p>
+<p><span class="math display">\[ \textrm{IQR} = 4 - 2 = 2 \]</span></p>
+<p>The interquartile range is a useful measure of variability for skewed distributions. It can show where most values lie and how clustered they are. It is useful for datasets with outliers as it is based on the middle half of the distribution and less influenced by extreme values. Exclusive calculations result in a wider interquartile range than inclusive calculations.</p>
+</div>
+</div>
+<div id="variance-and-standard-deviation" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Variance and Standard Deviation<a href="describing-data.html#variance-and-standard-deviation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The standard deviation describes to what extent a set of numbers lie apart (their spread). It is the square root of variance which is also an indicator of the spread of values.</p>
+<p><strong>Variance</strong></p>
+<p>To calculate the variance:</p>
+<ol style="list-style-type: decimal">
+<li>Start by finding the mean of the values in the dataset.</li>
+<li>Find the difference between each recorded value and the mean.</li>
+<li>Square those differences.</li>
+<li>Sum the squared differences.</li>
+<li>Divide the sum by the number of values recorded for population variance or the sum of the number of values minus 1 for sample variance.</li>
+</ol>
+<p><strong>Standard Deviation</strong></p>
+<p>Taking square root of the variance corrects for the fact that all the differences were squared, resulting in the standard deviation.</p>
+<p>The plot below shows three distributions of values, each with a mean of 30 but with different standard deviations. In statistics there is a rule called the empirical rule that states that 68%, 95%, and 99.7% of the values lie within one, two, and three standard deviations of the mean, respectively.</p>
+<p>To make sense of this through an example, the plot below shows some simulated data for test scores. Three groups given the same test could achieve the same average score but with greater or lesser spreads of scores.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="Bookdown_files/figure-html/unnamed-chunk-4-1.png" alt="Plot showing several distributions of simulated test score data the same means but differing standard deviations." width="672" />
+<p class="caption">
+Figure 4.1: Plot showing several distributions of simulated test score data the same means but differing standard deviations.
+</p>
+</div>
+<p>For a mean of 30 and standard deviation of 5: 68% of the values will lie within the range 25-35.</p>
+<p>For a mean of 30 and standard deviation of 10: 68% of the values will lie within the range 20-40.</p>
+<p>For a mean of 30 and standard deviation of 15: 68% of the values will lie within the range 15-45.</p>
+<p>This is particularly clear with a mean of 30 and a standard deviation of 5 as most of the values are tightly packed within the range 25-35.</p>
+<div id="example-9" class="section level4 hasAnchor" number="4.3.3.1">
+<h4><span class="header-section-number">4.3.3.1</span> Example<a href="describing-data.html#example-9" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Calculate the sample estimate of variance and sample estimate of standard deviation for the following list of values:</p>
+<p><span class="math display">\[ 2, 4, 4, 5, 6.\]</span></p>
+<p>Start by finding the mean of the values in the dataset:</p>
+<p><span class="math display">\[ \textrm{Mean}= \frac{2 + 4 + 4 + 5 + 6}{5}=4.2.\]</span>
+Find the difference between each recorded value and the mean.</p>
+<table>
+<caption></caption>
+<thead>
+<tr class="header">
+<th align="right">Value</th>
+<th align="right">Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">2</td>
+<td align="right">2 - 4.2 = -2.2</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">4 - 4.2 = -0.2</td>
+</tr>
+<tr class="odd">
+<td align="right">4</td>
+<td align="right">4 - 4.2 = -0.2</td>
+</tr>
+<tr class="even">
+<td align="right">5</td>
+<td align="right">5 - 4.2 = 0.8</td>
+</tr>
+<tr class="odd">
+<td align="right">6</td>
+<td align="right">6 - 4.2 = 1.8</td>
+</tr>
+</tbody>
+</table>
+<p>Square the differences.</p>
+<table>
+<caption></caption>
+<thead>
+<tr class="header">
+<th align="right">Value</th>
+<th align="right">Difference</th>
+<th align="right">Squared Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">2</td>
+<td align="right">-2.2</td>
+<td align="right">4.84</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">-0.2</td>
+<td align="right">0.04</td>
+</tr>
+<tr class="odd">
+<td align="right">4</td>
+<td align="right">-0.2</td>
+<td align="right">0.04</td>
+</tr>
+<tr class="even">
+<td align="right">5</td>
+<td align="right">0.8</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="odd">
+<td align="right">6</td>
+<td align="right">1.8</td>
+<td align="right">3.24</td>
+</tr>
+</tbody>
+</table>
+<p>Sum the squared differences.</p>
+<p><span class="math display">\[\textrm{Sum} = 4.84 + 0.04 + 0.04 + 0.64 + 3.24 = 8.8. \]</span></p>
+<p>Divide the sum by the number of values recorded minus one to get the sample estimate of variance.</p>
+<p><span class="math display">\[ \textrm{Variance}_{S} = \frac{8.8}{5-1} = 2.2.\]</span></p>
+<p>To get the sample estimate of the standard deviation take the square root of this value:</p>
+<p><span class="math display">\[ \textrm{Standard Deviation}_S = \sqrt{ \textrm{Variance}_{S}} = \sqrt{2.2} = 1.48.\]</span></p>
+</div>
+</div>
+<div id="using-excel-1" class="section level3 hasAnchor" number="4.3.4">
+<h3><span class="header-section-number">4.3.4</span> Using Excel<a href="describing-data.html#using-excel-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Calculating the variance and standard deviation by hand is a long process and due to the number of steps involved it is prone to error. Excel, SPSS, Python and R all have functions which allow users to calculate these descriptive statives and their use is highly recommended over calculating the statistics by hand.</p>
+<p><strong>Range</strong></p>
+<p>=MAX(start:end)-MIN(start:end)</p>
+<p><strong>Standard Deviation</strong></p>
+<p>=STDEV.S(start:end)
+=STDEV.P(stard:end)</p>
+<p>stdev.s() estimates standard deviation based on a sample. stdev.p() calculates standard deviation based on the entire population given as arguments.</p>
+<p><strong>Variance</strong></p>
+<p>=VAR.S(start:end)
+=VAR.P(start:end)</p>
+<p>var.s() estimates variance based on a sample. var.p() calculates variance based on the entire population given as arguments.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="levels-of-measurement-quiz.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="descriptive-statistics-quiz.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Bookdown.pdf", "Bookdown.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
